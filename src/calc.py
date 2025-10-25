@@ -160,7 +160,7 @@ class RPNCalculator:
         if b != 0:
             return a / b
         else:
-            raise Exception(ZeroDivisionError("Деление на ноль."))
+            raise ZeroDivisionError("Деление на ноль.")
 
     def power(self, a: float, b: float) -> float:
         """
