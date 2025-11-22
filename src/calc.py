@@ -39,7 +39,7 @@ class RPNCalculator:
             self.push(value)  # type: ignore
             return i + 1
         elif type == "OPR":
-            self.process_operation(value)   # type: ignore
+            self.process_operation(value)  # type: ignore
             return i + 1
         elif type == ")":
             raise WrongBracketCombinationError("Напутали со скобочками.")

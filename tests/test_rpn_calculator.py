@@ -59,7 +59,3 @@ class TestRPNCalculator(unittest.TestCase):
     def test_zero_division(self) -> None:
         with self.assertRaises(ZeroDivisionError):
             self.calc.solve("2 0 /")
-
-
-if __name__ == "__main__":
-    unittest.main()
